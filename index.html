@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets\css\index.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+</head>
+<body>
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">JF</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#header">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-anchor">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio-anchor">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#end-anchor">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div id="header" class="row align-items-center section">
+      <div class="col-lg-6 col-md justify-content-center">
+        <img id="circle-img" src="imgs\circle-cropped.png">
+      </div>
+      <div class="col-lg-6 align-items-center text-lg-left text-center col-md">
+          <h1 class="display-4">Hello, I'm Jose</h1>
+          <h1 class="display-6">I'm a student Web Developer.</h1>
+      </div>
+    <div class="col-lg">
+        <a href="#about-anchor"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </div>
+
+  <div id="about-anchor"class="row align-items-center section about">
+    <div id="about-me" class="col-lg-6 text-lg-left text-center pt-5">
+
+      <h1>Who Am I?</h1>
+      <hr id="top-border">
+      <p>I'm a first-generation college student from New Jersey. I'm currenty majoring in Computer Engineering at Stevens Institute of Technology over in Hoboken, NJ. I have a passion for Web Development so I've been taking the time to learn new skills everyday. This website will be the start of my web developing journy, an I'll be keeping track of all of my upcoming projects. If you're reading this, thank you for taking part in my journey.</p>
+      <h3>- JF</h3>
+      <hr>
+    </div>
+    <div class="col-lg-6 text-center d-none d-lg-block">
+      <img id="about-img" src="imgs\about-me.jpeg">
+    </div>
+    <div class="col-lg text-center">
+        <a href="#portfolio-anchor"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </div>
+
+  <div id="portfolio-anchor" class="align-items-center section portfolio">
+    <h1>Portfolio</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-8 mx-auto my-3">
+        <div class="card w-100">
+          <img class="card-img-top" src="assets\portfolio\colorGame\color-game.png">
+          <div class="card-body">
+              <h5 class="card-title">RGB Color Game</h5>
+              <p class="card-text">A guessing game where you try to guess the right color based on the RGB value given.</p>
+              <a href="assets\portfolio\colorGame\colorGame.html" class="btn btn-outline-primary btn-sm">Visit</a>
+              <p class="technology">
+                HTML + CSS + JS
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-8 mx-auto my-3">
+        <div class="card">
+          <img class="card-img-top" src="assets\portfolio\todoList\todo-list-img.png">
+          <div class="card-body">
+              <h5 class="card-title">Todo List</h5>
+              <p class="card-text">A Todo list where you can add/delete as many items as you need.</p>
+              <a href="assets\portfolio\todoList\index.html" class="btn btn-outline-primary btn-sm">Visit</a>
+              <p class="technology">
+                HTML + CSS + JS + jQuery
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-8 mx-auto my-3 invisible">
+        <div class="card">
+          <img class="card-img-top" src="assets\portfolio\#">
+          <div class="card-body">
+              <h5 class="card-title">#</h5>
+              <p class="card-text">#</p>
+              <a href="assets\portfolio\#" class="btn btn-outline-primary btn-sm">Visit</a>
+              <p class="technology">
+                HTML + CSS + JS
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg mx-auto">
+        <a href="#end-anchor"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
+
+    <div id="end-anchor" class="row end-section align-items-center">
+      <div class="col-lg text-center">
+        <p>© Jose Fermin 2020</p>
+        <hr>
+        <p>Follow me!</p>
+        <div>
+          <button>
+            <a href="https://www.instagram.com/jfermin18/"><i class="fab fa-instagram"></i></a>
+          </button>
+          <button>
+            <a href="https://www.linkedin.com/in/jfermint/"><i class="fab fa-linkedin"></i></a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script>
+  $('.navbar-collapse a').click(function(){
+      $(".navbar-collapse").collapse('hide');
+  });
+</script>
+</body>
+</html>
